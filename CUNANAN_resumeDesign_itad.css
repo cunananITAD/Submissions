@@ -1,0 +1,100 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    line-height: 1.6;
+    color: rgb(110, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+}
+
+#left-sidebar{
+    float:left;       
+}
+
+hr {
+    background-color: rgb(110, 0, 0);
+    border: none;
+    height: 4px;
+    width: 83.5%;
+}
+
+header {
+    margin-left: 190px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: justify;
+    color:rgb(110, 0, 0);
+}
+
+header h1 {
+    color: rgb(110, 0, 0);
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(110, 0, 0);
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-details {
+    padding-left: 174px;
+}
+
+a:link {
+    color: rgb(110, 0, 0);
+  }
+  
+a:visited {
+    color: green;
+  }
+  
+a:hover {
+    color: rgb(255, 51, 51);
+  }
+  
+a:active {
+    color: blue;
+  }
+
+section {
+    color:#fafafa;
+    margin: 1rem 0;
+    background-color: rgb(110, 0, 0);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(88, 88, 88, 0.726);
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+#about-me p {
+    text-align: justify;
+}
+
+#technical-skills ul,
+#skills-training ul,
+#hobbies ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
